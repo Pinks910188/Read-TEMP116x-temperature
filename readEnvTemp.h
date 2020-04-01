@@ -28,7 +28,7 @@ public:
     /// GET I2C address 0x48(For our ENV chip), register 1 & 2 value
     /// And calculation.
     /// //////////////////////////////////////////////////////////////////
-    void getTemp(int *buf);
+    void getTemp();
 
 
 };

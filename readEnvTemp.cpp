@@ -20,7 +20,7 @@ readEnvTemp::~readEnvTemp(){
     cout << "readEnvTemp class close" << endl;
 }
 
-void readEnvTemp::getTemp(int *buf){
+void readEnvTemp::getTemp(){
     bool ret;
     ret = true;
 
